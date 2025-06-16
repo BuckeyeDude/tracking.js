@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es6"
+    ],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "test",
+    "examples"
+  ]
+}
